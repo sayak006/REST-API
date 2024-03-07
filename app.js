@@ -6,7 +6,7 @@ const products_routes=require("./routes/products");
 const connectDB=require("./db/connect");
 
 app.get("/",(req,res)=>{
-    res.send("I am live");
+    res.send("Welcome to my REST-API");
 })
 // middleware or to set router
 app.use("/api/products",products_routes);
